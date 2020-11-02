@@ -13,9 +13,6 @@ from sklearn.cluster import KMeans
 from sklearn import datasets
 from sklearn.decomposition import PCA
 from sklearn.metrics import classification_report, accuracy_score
-import os
-import struct
-import array as pyarray
 
 #   Iris
 iris = datasets.load_iris()
